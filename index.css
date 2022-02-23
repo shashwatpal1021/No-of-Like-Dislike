@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height : 100vh;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5%;
+    
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#number{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+    
+    font-weight: 500;
+    font-size: 10rem;
+    border-radius: 30px;
+}
+.buttons button{
+    border: 1px solid rgba(0,0,0,0.3);
+}
+#btn1,#btn2,#btn3{
+    display: inline-block;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#btn1{
+    background-color: green;
+}
+#btn2{
+   width: 100px;
+}
+
+#btn3{
+   background-color: red;
+}
+
+.buttons button:hover{
+    border: 1px solid rgba(248, 246, 246, 0.5);
+   
+    
+}
+#btn1:hover{
+    background-color: rgb(2, 112, 2);
+}
+#btn2:hover{
+    background-color: rgba(167, 138, 138, 0.6);
+}
+#btn3:hover{
+    background-color: rgb(218, 1, 1);
+}
+
+@media screen and (max-width: 450px) {
+
+    .number{
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        line-height: normal;
+        font-size: 10rem;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 280px) {
+
+    .number{
+        height: 100px;
+        width: 200px;
+        text-align: center;
+        line-height: normal;
+        font-size: 5rem;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}

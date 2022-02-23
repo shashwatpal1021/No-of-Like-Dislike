@@ -2,7 +2,7 @@
 let count = document.getElementById("number");
 
 function reset() {
-   
+   count = 0;
    document.getElementById("number").innerHTML = count;
 }
 

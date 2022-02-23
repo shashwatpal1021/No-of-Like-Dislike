@@ -1,8 +1,9 @@
 
 let count = document.getElementById("number");
 
-function reset(){
-   document.getElementById("number").innerHTML = 0;
+function reset() {
+   
+   document.getElementById("number").innerHTML = count;
 }
 
 function increment() {

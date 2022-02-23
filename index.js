@@ -1,4 +1,4 @@
-
+var count = 0;
 let count = document.getElementById("number");
 
 function reset(){

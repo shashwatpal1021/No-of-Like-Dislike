@@ -1,4 +1,4 @@
-var count = 0;
+
 let count = document.getElementById("number");
 
 function reset(){
@@ -7,11 +7,13 @@ function reset(){
 }
 
 function increment() {
+   let count = 0;
    count++;
    document.getElementById("number").innerHTML = count;
 }
 
-function decrement(){
+function decrement() {
+   let count = 0;
    count--;
    document.getElementById("number").innerHTML = count;
 }

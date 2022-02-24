@@ -4,7 +4,7 @@ let count = 0;
 
 function reset() {
    count = 0;
-   document.getElementById("number").innerHTML = count;
+   x.innerHTML = count;
 }
 
 function increment() {

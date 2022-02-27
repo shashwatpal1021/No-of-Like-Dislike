@@ -23,5 +23,5 @@ This is a Youtbe  clone which help help to search a video as usuall in youtube.
 ├── Read.md
 ```
 
-## Deployement on Heroku
+## Deployement on github
 Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.

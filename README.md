@@ -11,7 +11,7 @@
 Link: [https://shashwatpal1021.github.io/Number-of-Like-Dislike-By-Shashwat/](https://shashwatpal1021.github.io/Number-of-Like-Dislike-By-Shashwat/)
 
 ## Overview
-This is a Youtbe  clone which help help to search a video as usuall in youtube.
+This is a Counter which increase with like and decrease with dislike.
 
 ## Directory Tree 
 ```

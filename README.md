@@ -23,5 +23,6 @@ This is a Counter which increase with like and decrease with dislike.
 ├── Read.md
 ```
 
-## Deployement on github
-Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
+## Deployement on Github
+Login or signup in order to create Repositories. You can create a page and deploy it with the help of github.io.
+
